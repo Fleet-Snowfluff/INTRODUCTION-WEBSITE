@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400vh;
+  height: 300vh;
   margin: 0;
   font-family: arial, sans-serif;
 }
@@ -29,4 +29,5 @@ h1 {
 p {
   font-size: 18px;
   margin: 10px 0;
+
 }
