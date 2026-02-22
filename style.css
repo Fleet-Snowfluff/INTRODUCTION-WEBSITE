@@ -2,11 +2,12 @@
 body {
   background-color: #7b0000;
   display: flex;
-  justify-content: center;
+  flex-direction: column;   /* stack vertically */
   align-items: center;
-  height: 200vh;
   margin: 0;
-  font-family: arial, sans-serif;
+  font-family: Arial, sans-serif;
+  padding: 40px 0;
+  gap: 30px;   /* space between boxes */
 }
 /* White box */
 .card {
@@ -29,6 +30,4 @@ h1 {
 p {
   font-size: 18px;
   margin: 10px 0;
-
 }
-
